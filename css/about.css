@@ -24,7 +24,7 @@ body{
 /************** name *****************************/
 
 .name{
-    font: normal normal normal 16pt "Verdana";  /* FONT */
+    font: normal normal normal 12pt "Verdana";  /* FONT */
     color: orange;  
     border-bottom: 1px solid #808080;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .hello{
-    font: italic bold normal 44pt "Calibri";    /* FONT */
+    font: italic bold normal 26pt "Calibri";    /* FONT */
     background-color: white;
     color: orange;  /* #ffa500 */
 }

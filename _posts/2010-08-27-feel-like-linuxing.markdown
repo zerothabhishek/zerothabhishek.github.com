@@ -1,5 +1,6 @@
 ---
 
+published: false
 layout: post
 title: feel like linuxing
 permalink: linuxing.html
