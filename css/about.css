@@ -62,7 +62,7 @@ body{
 /*************** footer *********************************/
 .footer{
     font: normal normal normal 14pt "Verdana";  /* FONT */
-    color: orange;  
+    color: #A00; /* red */  
     border-top: 1px solid #808080;
 }
 .footer span{

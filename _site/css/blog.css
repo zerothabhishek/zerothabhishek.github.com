@@ -50,6 +50,10 @@ h1, h2, h3 {
   overflow: hidden;
 }
 
+#header a{
+	color: orange;
+}
+
 #header .name{
   float: left;
   margin-left: 15%;
@@ -99,7 +103,7 @@ h1, h2, h3 {
   clear: both;
   margin: 2em auto auto 15%;
   font-size:1em;
-  color: orange; 
+  color: #A00; 
 }
 #footer span{
   background-color: #808080;
@@ -130,10 +134,10 @@ h1, h2, h3 {
 
 /*********************** links *********************************/
 a           {  }
-a:link      {   color: #ffa500; text-decoration: none;}
-a:active    {   color: #ffa500; text-decoration: none;}
-a:visited   {   color: #ffa500; text-decoration: none;}
-a:hover     {   color: #FFa500; text-decoration: none;  background-color: #808080; padding: 0.25em 0;}
+a:link      {   color: #A00; text-decoration: none;}
+a:active    {   color: #A00; text-decoration: none;}
+a:visited   {   color: #A00; text-decoration: none;}
+a:hover     {   color: #A00; text-decoration: none;  background-color: #808080; padding: 0.25em 0;}
 a.forkme_ribbon { padding: 0;}
 a.forkme_ribbon:hover { color: #FFa500; text-decoration: none; background-color: #ffffff; padding: 0; }   
 /* orange: #ffa500, orangered: #ff4500 */
