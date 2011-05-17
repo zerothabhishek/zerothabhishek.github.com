@@ -7,6 +7,7 @@
    
    <!-- Indigenous CSS -->
    <link rel="stylesheet" href="/css/blog.css" type="text/css" />
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
 </head>
 <body>
@@ -14,36 +15,49 @@
 <div class="site">
   
   <div id="header">
-	<div class="name">
-	  <a href="/">Abhishek Yadav's <span class="italic">t-log</span></a>
-	</div>
+	<div class="column" id="name"><a href="/">Abhishek Yadav's <span class="italic">t-log</span></a></div>
+	<div class="column">|</div>
+	<div class="column" id="about"><a href="/about.html">about</a></div>  
+	<div class="column">|</div>
+	<div class="column" id="contact"><a href="/contact.html">contact</a></div>  
   </div>
 
   <div id="content">
-  <div id="post">
-	<h1><a href="the-zen-of-python.html">the zen of python</a></h1>
-	<div id="post-header">
-		<div class="date">14 April 2008</div>
-		<div class="location">Bangalore</div>
-	</div>	
-<p><img src='images/zen-of-python.png' alt='python image' /></p>
+  <div class="post">
+	<div class="post-header">
+		<h1><a href="the-zen-of-python.html">the zen of python</a></h1>
+		<span class="date">14 April 2008</span>
+		<span class="location">Bangalore</span>
+	</div>
+	<div class="post-body">	
+		<p><img src='images/zen-of-python.png' alt='python image' /></p>
 
 <p>Beautiful is better than ugly.<br />Explicit is better than implicit.<br /><strong>Simple is better than complex.</strong><br />Complex is better than complicated.<br />Flat is better than nested.<br />Sparse is better than dense.<br />Readability counts.<br />Special cases aren&#8217;t special enough to break the rules.<br />Although <strong>practicality beats purity.</strong><br />Errors should never pass silently.<br />Unless explicitly silenced.<br />In the face of ambiguity, refuse the temptation to guess.<br />There should be one&#8211; and preferably only one &#8211;obvious way to do it.<br />Although that way may not be obvious at first unless you&#8217;re Dutch.<br />Now is better than never.<br />Although never is often better than <em>right</em> now.<br />If the implementation is hard to explain, it&#8217;s a bad idea.<br />If the implementation is easy to explain, it may be a good idea.<br />Namespaces are one honking great idea &#8211; let&#8217;s do more of those!<br />(<a href='http://www.python.org/dev/peps/pep-0020/'>source</a>)</p>
 
 <p>So much philosophy behind a computer-programming language?<br />Well, yes! The programs in python do follow the above aphorisms.<br />I can vouch for at least the highlighted ones.</p>
+	</div>	
+</div>
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'zerothabhishek'; // required: replace example with your forum shortname
+
+	    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+	    var disqus_identifier = 'the zen of python';
+	    //var disqus_url = 'http://example.com/permalink-to-page.html';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
   </div>	
-
-  <div id="sidebar-right">
-	<div id="about">
-	  <h3>about -</h3>
-	  <div id="about-desc">
-		<a href="http://github.com/zerothabhishek">me on github</a><br/>
-		<a href="http://twitter.com/zerothabhishek">me on twitter</a><br/>
-		<a href="http://li161-110.members.linode.com:3000/resumes/24/html">my resume</a><br/> 
-	  </div>
-	</div>
-  </div>
 
   <div id="footer">
   </div>

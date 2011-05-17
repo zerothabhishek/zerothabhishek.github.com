@@ -7,6 +7,7 @@
    
    <!-- Indigenous CSS -->
    <link rel="stylesheet" href="/css/blog.css" type="text/css" />
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
 </head>
 <body>
@@ -14,19 +15,22 @@
 <div class="site">
   
   <div id="header">
-	<div class="name">
-	  <a href="/">Abhishek Yadav's <span class="italic">t-log</span></a>
-	</div>
+	<div class="column" id="name"><a href="/">Abhishek Yadav's <span class="italic">t-log</span></a></div>
+	<div class="column">|</div>
+	<div class="column" id="about"><a href="/about.html">about</a></div>  
+	<div class="column">|</div>
+	<div class="column" id="contact"><a href="/contact.html">contact</a></div>  
   </div>
 
   <div id="content">
-  <div id="post">
-	<h1><a href="new-color.html">The story of the new color</a></h1>
-	<div id="post-header">
-		<div class="date">13 September 2010</div>
-		<div class="location">chennai</div>
-	</div>	
-<p>This was a discussion I had with a couple of my friends in in school. The question is this -</p>
+  <div class="post">
+	<div class="post-header">
+		<h1><a href="new-color.html">The story of the new color</a></h1>
+		<span class="date">13 September 2010</span>
+		<span class="location">chennai</span>
+	</div>
+	<div class="post-body">	
+		<p>This was a discussion I had with a couple of my friends in in school. The question is this -</p>
 
 <pre><code>If I see a color different from you, would we ever know the difference?</code></pre>
 
@@ -47,19 +51,29 @@
 <p>The color spectrum is an orders visible colors of light based on wavelenghts. It is Red, Orange, Yellow, Green, Blue, Voilet. So say for example, if Red were to appear Yellow to me, and Yellow as Blue, then by this order, what would blue and voilet appear? They should become invisible, as per <em>me</em>in_those_days_. That was a mistake. Color perception is a complex electrostatic + biological phenomonon, and cannot be assumed to follow this logic.</p>
 
 <p>The discussion ended at that point, but I am still partially convinced that it is quite possible different people see the same colors differently. But I never could see a <em>new</em> color in dreams. I&#8217;ll wait :)</p>
+	</div>	
+</div>
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'zerothabhishek'; // required: replace example with your forum shortname
+
+	    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+	    var disqus_identifier = 'The story of the new color';
+	    //var disqus_url = 'http://example.com/permalink-to-page.html';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
   </div>	
-
-  <div id="sidebar-right">
-	<div id="about">
-	  <h3>about -</h3>
-	  <div id="about-desc">
-		<a href="http://github.com/zerothabhishek">me on github</a><br/>
-		<a href="http://twitter.com/zerothabhishek">me on twitter</a><br/>
-		<a href="http://li161-110.members.linode.com:3000/resumes/24/html">my resume</a><br/> 
-	  </div>
-	</div>
-  </div>
 
   <div id="footer">
   </div>

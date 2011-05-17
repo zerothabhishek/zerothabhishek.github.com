@@ -3,12 +3,12 @@ body{
   margin:0;
   font-family: verdana, sans-serif;
 }
-h1{ font-size: 200%; }
-h2{ font-size: 150%; }
+h1{ font-size: 150%; }
+h2{ font-size: 120%; }
 h3{ font-size: 110%; }
 h1, h2, h3 {
 	font-weight: normal;
-	font-family: Georgia;
+	font-family: verdana, sans-serif;
 	margin: 0;
 }
 
@@ -53,16 +53,13 @@ h1, h2, h3 {
 #header a{
 	color: orange;
 }
-
-#header .name{
-  float: left;
+#header #name{
   margin-left: 15%;
 }
-
-#header .about {
-  float: right;	
+#header .column{
+  float:left;	
+  margin-left: 1em;	
 }
-
 
 /************************ content *****************************/
 #content {
@@ -71,14 +68,18 @@ h1, h2, h3 {
   line-height: 1.5;
   float: left;
 }
-#post{
+.post{
   background-color: #fffffe;
   font-size: 90%;
 }
-
-#post-header .date, .location{
+.post-header{	
 }
-
+.post .date, .location{
+  font-size: 70%;
+}
+.post-body{	
+	margin-top: 3em;
+}
 
 /************************ sidebar *********************************/
 #sidebar-right{
@@ -137,7 +138,7 @@ a           {  }
 a:link      {   color: #A00; text-decoration: none;}
 a:active    {   color: #A00; text-decoration: none;}
 a:visited   {   color: #A00; text-decoration: none;}
-a:hover     {   color: #A00; text-decoration: none;  background-color: #808080; padding: 0.25em 0;}
+a:hover     {   color: #ff4500; text-decoration: none;}
 a.forkme_ribbon { padding: 0;}
 a.forkme_ribbon:hover { color: #FFa500; text-decoration: none; background-color: #ffffff; padding: 0; }   
 /* orange: #ffa500, orangered: #ff4500 */

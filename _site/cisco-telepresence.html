@@ -7,6 +7,7 @@
    
    <!-- Indigenous CSS -->
    <link rel="stylesheet" href="/css/blog.css" type="text/css" />
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
 </head>
 <body>
@@ -14,19 +15,22 @@
 <div class="site">
   
   <div id="header">
-	<div class="name">
-	  <a href="/">Abhishek Yadav's <span class="italic">t-log</span></a>
-	</div>
+	<div class="column" id="name"><a href="/">Abhishek Yadav's <span class="italic">t-log</span></a></div>
+	<div class="column">|</div>
+	<div class="column" id="about"><a href="/about.html">about</a></div>  
+	<div class="column">|</div>
+	<div class="column" id="contact"><a href="/contact.html">contact</a></div>  
   </div>
 
   <div id="content">
-  <div id="post">
-	<h1><a href="cisco-telepresence.html">cisco's telepresence</a></h1>
-	<div id="post-header">
-		<div class="date">09 April 2008</div>
-		<div class="location"></div>
-	</div>	
-<p>Watch This:<br /><object height='385' width='480'><param name='movie' value='http://www.youtube.com/v/rcfNC_x0VvE?fs=1&amp;hl=en_US' /><param name='allowFullScreen' value='true' /><param name='allowscriptaccess' value='always' /><embed src='http://www.youtube.com/v/rcfNC_x0VvE?fs=1&amp;hl=en_US' allowfullscreen='true' type='application/x-shockwave-flash' allowscriptaccess='always' height='385' width='480' /></object></p>
+  <div class="post">
+	<div class="post-header">
+		<h1><a href="cisco-telepresence.html">cisco's telepresence</a></h1>
+		<span class="date">09 April 2008</span>
+		<span class="location"></span>
+	</div>
+	<div class="post-body">	
+		<p>Watch This:<br /><object height='385' width='480'><param name='movie' value='http://www.youtube.com/v/rcfNC_x0VvE?fs=1&amp;hl=en_US' /><param name='allowFullScreen' value='true' /><param name='allowscriptaccess' value='always' /><embed src='http://www.youtube.com/v/rcfNC_x0VvE?fs=1&amp;hl=en_US' allowfullscreen='true' type='application/x-shockwave-flash' allowscriptaccess='always' height='385' width='480' /></object></p>
 
 <p>This is Cisco&#8217;s telepresence magic !</p>
 
@@ -43,19 +47,29 @@
 <p>And not to forget the price tag - $249000 - close to a crore rupees.</p>
 
 <p>The <a href='http://www.cisco.com/en/US/solutions/ns669/networking_solutions_products_genericcontent0900aecd80546cd0.html'>product</a> itself is pretty honest about its capabilities, but what makes it look flimsy-shallow is the way Mr Chambers chose to present it in India, as shown in the video.</p>
+	</div>	
+</div>
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'zerothabhishek'; // required: replace example with your forum shortname
+
+	    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+	    var disqus_identifier = 'cisco's telepresence';
+	    //var disqus_url = 'http://example.com/permalink-to-page.html';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
   </div>	
-
-  <div id="sidebar-right">
-	<div id="about">
-	  <h3>about -</h3>
-	  <div id="about-desc">
-		<a href="http://github.com/zerothabhishek">me on github</a><br/>
-		<a href="http://twitter.com/zerothabhishek">me on twitter</a><br/>
-		<a href="http://li161-110.members.linode.com:3000/resumes/24/html">my resume</a><br/> 
-	  </div>
-	</div>
-  </div>
 
   <div id="footer">
   </div>
