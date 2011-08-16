@@ -60,3 +60,5 @@ And after spending more than two weeks on it, I had to abandon it. Here are some
 - A project with too many moving parts - independent components integrated together is hard to implement and test.
 A project with third party dependencies (api) is risky
 
+
+## Edited with ACE
