@@ -34,7 +34,9 @@ h1, h2, h3 {
 .date, .location{
   color:#aaaaaa;
 }
-
+.notice{
+  background-color: yellow;
+}
 /************************** site *****************************/
 /* all non-absolute positioned elements are inside the site */
 #site{
