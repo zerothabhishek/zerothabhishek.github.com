@@ -8,7 +8,7 @@ location: chennai
 
 ---
 
-## prelude: the mars-rover problem
+# prelude: the mars-rover problem
 
 {% highlight ruby %}
 
@@ -39,25 +39,25 @@ The above code is a method defined for the mars-rover object, that will do the l
 
 I was happy with my solution. The problem was not very difficult, and because the time was sufficient, I was able to write tests (not TDD). The code was well-commented and readable.
 
-## the interview
+# the interview
 
 I was eventually invited for the face-to-face interview. The HR person who I talked to said that the interview will be a pair-programming session where we (the interviewer and I) will re-factor the code. The code lacks application of concepts like polymorphism, and we will try to fix that. I was impressed with her because I had never heard an HR person talk about polymorphism and refactoring.
 
 The assignment for me at the pair-programming session was to remove the _case-when_ block in the above example (top) (and an _if-else_ block in one more place). The session went on for almost an hour and a half, I asked for hints a couple of times. I was unable to make the required changes, and the best I could finally get to was something in the right direction. The interviewer explained that this is quite a basic expectation, and is pretty much the starting point of the how they think at work. He had decided to not hire me.
 
-## a bit about the interviewer and a bit about me
+# a bit about the interviewer and a bit about me
 
 My interviewer was not condescending at all, in fact he was very kind and friendly with me. I also liked his honest and polite way of conveying the rejection. Interviewers I have faced before are mostly diplomatic about this. He later on gave a very good [presentation](http://vimeo.com/25410417) at Ruby-Conf-India.
 
 I am computer science educated, I know the fundamentals of object oriented programming (OOP), and had been using ruby for almost a year (though most of my experience before ruby was with system-programs written in C). Judgements about my programming competence apart, I think this is one of those necessary things I missed out on learning. Or I missed out on _knowing_ it was necessary.
 
-## the convincing explanation 
+# the convincing explanation 
 
 Because I was so convinced with the goodness of my solution, I asked him to explain the merit of his demand. "What is wrong with this code? It is readable, and it works." (In hindsight, I was defending my work.) And I got a good answer - it is difficult to extend. The code represents the cardinal directions with the characters 'N', 'E', 'W' and 'S', and uses branching on them. What if in future we want eight directions instead of four. We would need to add four more branches here, and in every other place that deals with directions. That may be difficult and error prone.
 
 It made sense. I had seen the pages and pages of code in switch-case constructs at my previous companies (NetApp and HP). Many of them must have started with the humble single liners like this one, but get bloated on additions because the only place to express the related logic is the block within the branch.
 
-## new code
+# new code
 
 So a better thing at this point would be  -
 {% highlight ruby %}
@@ -94,21 +94,21 @@ and much before all this,
 
 I still could not get rid of the branching. It is not possible to eliminate branching altogether. The rover's initial direction is dependent on the input given, which _has_ to pass through branches at some point. The closer it is to the entry point of the system, the better. Now if we had to add more directions to the system, we will define a few more classes, and a modification to the case-when branching construct at the start. The place for the direction related logic is in the direction's class, so this is much easier to understand and modify. And we get rid of the if-else in the rover's turn_left method.
 
-## post-mortem 
+# post-mortem 
 
 Although I was quite convinced with his argument, I continued thinking about the "extend" part. As soon as he mentions extend, I am reminded of the ugly branching code I had seen, and assume that extending means adding more features/code (more turning direction here, for example). But I have to question that assumption too. The future of most code may be more code, but the future _demands_ from the code may not always be more code. One example of a future demand is performance. All abstractions come with performance overheads. (That now reminds me that NetApp code had very hard requirements for performance). Not saying that we can't write object oriented code having good performance. The point is, we should not assume too quickly about the future of our code.
 
 But what do we do when we are clueless about the future. I suppose we write code that is easier to change - add features, remove features, optimize. Perhaps that is what 'maintainable code' means. Perhaps that's why using object-oriented techniques make sense, even when the future is unclear.
 
-## and ...
+# and ...
 
 And this was an interview. The intent was not really to build a mars-rover controlling software, it was to test my ability to program a certain way. 
 
-## also,
+# also,
 
 Finally the most dramatic part. After narrating all these thoughts to Uma (my wife, C++ programmer), I learn from her that the problem/ polymorphism everything is discussed at length on the internet. I just had to google it, and the result could have been different.
 
-## lessons
+# lessons
 
 So my lessons from the experience:
 
