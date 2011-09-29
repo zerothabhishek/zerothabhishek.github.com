@@ -8,8 +8,6 @@ location: chennai
 
 ---
 
-<div class="notice"> This post is a draft right now. May be changed/deleted soon. Please don't rely on it/link to it right now.</div>
-
 ## prelude: the mars-rover problem
 
 {% highlight ruby %}
@@ -108,15 +106,14 @@ And this was an interview. The intent was not really to build a mars-rover contr
 
 ## also,
 
-Finally the most dramatic part. After narrating all these thoughts to Uma (my wife), I learn from her that the problem/ polymorphism everything is discussed at length on the internet. I just had to google it, and I could have made it throughs.
+Finally the most dramatic part. After narrating all these thoughts to Uma (my wife, C++ programmer), I learn from her that the problem/ polymorphism everything is discussed at length on the internet. I just had to google it, and the result could have been different.
 
 ## lessons
 
 So my lessons from the experience:
 
-1. What looks readable is not necessarily maintainable
-2. Polymorphism makes code more maintainable
-
-.
+1. Readable code is not necessarily maintainable code
+2. Code that is easy to change is more maintainable
+3. Polymorphism makes code easier to read, and easier to change. Therefore code written using polymorphism is more maintainable.
 
 -----------
