@@ -25,8 +25,6 @@ Technologies - ruby on rails, javascript, spree[spreecommerce.com]
 - Web application revamp at [Mealnut foods](www.mealnut.com), aimed at providing meal recommendations to tiffin-service subscribers.  
 Technologies - ruby on rails, javascript  
 
-- Ruby client for the credit card processing system for [Zaakpay](www.zaakpay.com)  
-
 - E-commerce software for a Visoke (stealth mode startup in California).   
 Has an [open source component](https://github.com/zerothabhishek/payplug)  
   
