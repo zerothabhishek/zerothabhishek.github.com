@@ -1,3 +1,9 @@
+---
+
+layout: default
+permalink: resume.html
+
+---
 
 # ABHISHEK YADAV
 
