@@ -19,18 +19,18 @@ Ruby on rails developer with significant exposure into web design and system pro
   
 **Freelance rails-developer, April 2011 - present**  
   
-- E-commerce portal development for [Engrave](engrave.in)  
-Technologies - ruby on rails, javascript, spree[spreecommerce.com]  
+- E-commerce portal development for [Engrave](http://engrave.in)  
+Technologies - ruby on rails, javascript, [spree](http://www.spreecommerce.com)  
 
-- Web application revamp at [Mealnut foods](www.mealnut.com), aimed at providing meal recommendations to tiffin-service subscribers.  
+- Web application revamp at [Mealnut foods](http://www.mealnut.com), aimed at providing meal recommendations to tiffin-service subscribers.  
 Technologies - ruby on rails, javascript  
 
 - E-commerce software for a Visoke (stealth mode startup in California).   
 Has an [open source component](https://github.com/zerothabhishek/payplug)  
   
   
-**Web Developer at [Tenmiles](tenmiles.com), June 2010 - March 2011**  
-Working on [DoAttend](doattend.com), the online event registrations and ticketing system.   
+**Web Developer at [Tenmiles](http://tenmiles.com), June 2010 - March 2011**  
+Working on [DoAttend](http://doattend.com), the online event registrations and ticketing system.   
 Technologies - ruby on rails   
   
   
