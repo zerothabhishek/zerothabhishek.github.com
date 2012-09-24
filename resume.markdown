@@ -7,7 +7,7 @@ permalink: resume.html
 
 # ABHISHEK YADAV
 
-bigbeliever@gmail.com  
+zerothabhishek@gmail.com  
 +91 9840721536  
 github.com/zerothabhishek  
   
