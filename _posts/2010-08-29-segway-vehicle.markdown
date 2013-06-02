@@ -1,13 +1,11 @@
 ---
-
 layout: post
 title: segway inspired vehicle
 permalink: segway-inspired-vehicle.html
 date: 29 august 2010
 location: chennai
-
+published: true
 ---
-
 I liked [this](http://www.segway.com/puma/) [segway](http://en.wikipedia.org/wiki/Segway_PT) inspired vehicle when I saw an article about it on [MIT TR](http://www.technologyreview.com/blog/energy/25638/).   
 
 <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/UcS8stGOGCo?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/UcS8stGOGCo?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
