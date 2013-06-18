@@ -1,7 +1,7 @@
 ---
 
 layout: resume
-permalink: resume.html
+permalink: cv.html
 
 ---
 
