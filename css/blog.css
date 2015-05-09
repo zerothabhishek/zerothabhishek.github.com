@@ -72,7 +72,9 @@ h1, h2, h3 {
 }
 .post{
   background-color: #fffffe;
-  font-size: 90%;
+  font-size: 110%;
+  font-family: Georgia, serif;
+  -webkit-font-smoothing: antialiased;
 }
 .post-header{	
 }
