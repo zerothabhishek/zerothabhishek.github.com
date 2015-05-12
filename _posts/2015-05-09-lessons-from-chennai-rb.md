@@ -23,6 +23,7 @@ I see a lot of tech groups on meetup.com and facebook that never meet. There is 
 
 We often try to solicit help by asking everyone on the mailing list. 'Can anyone host the meetup this weekend ?' And we zero responses most of the time. If we look at this from the other side, its almost obvious why.
 
+>>
 _Ok he's is asking everyone for help._   
 _Maybe someone else (more interested) will step up._  
 _Is he asking for help, or is he reminding me of an obligation? Am I the *janta* he thinks he's leading?_  
@@ -31,6 +32,7 @@ A simple broadcast does not invoke any interest. And if the language is not righ
 
 Solicitation of support works best when asked personally, and when it looks like a request.  
 
+>>
 _'Hey $person, we are in need of space for the next meetup. Can you please let us host it at your office?'_
 
 

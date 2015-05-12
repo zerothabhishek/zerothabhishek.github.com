@@ -1,4 +1,4 @@
-@media only screen and (min-width : 767px) {
+@media only screen and (max-width : 767px) {
 
   body{
     margin:0;
@@ -8,9 +8,9 @@
   h2{ font-size: 120%; }
   h3{ font-size: 110%; }
   h1, h2, h3 {
-  	font-weight: normal;
-  	font-family: verdana, sans-serif;
-  	margin: 0;
+    font-weight: normal;
+    font-family: verdana, sans-serif;
+    margin: 0;
   }
 
   .float_clear{
@@ -21,16 +21,16 @@
     float:left;
   }
   .wide-8{
-  	width:1em;
+    width:1em;
   }
   .wide-4{
-  	width:4em;
+    width:4em;
   }
   .italic{
     font-style: italic;
   }
   .color-1{
-    color: #00ff00;	# bright-light green
+    color: #00ff00; # bright-light green
   }
   .date, .location{
     color:#aaaaaa;
@@ -48,27 +48,25 @@
     background-color:#808080;
     color:orange;
     font: 1em "Verdana";
-    width: 100%;	
+    width: 100%;  
     line-height: 2em;
     overflow: hidden;
-    padding-left: 20%;
+    padding-left: 1em;
   }
 
   #header a{
-  	color: orange;
+    color: orange;
   }
   #header #name{
   }
   #header .column{
-    float:left;	
-    margin-right: 1em;
+    float:left; 
+    margin-right: 1em; 
   }
 
   /************************ content *****************************/
   #content {
-    margin: 4em auto 4em 15%;
-    margin-left: 20%;
-    width: 60%;
+    margin: 0 1em;
     line-height: 1.75;
     float: left;
   }
@@ -78,15 +76,17 @@
     font-family: Georgia, serif;
     -webkit-font-smoothing: antialiased;
   }
-  .post-header{	
+  .post-header{ 
   }
   .post .date, .location{
     font-size: 70%;
   }
-  .post-body{	
-  	margin-top: 3em;
+  .post-body{
   }
   blockquote{
+    font-size: 90%;
+    margin: 0;
+    margin-left: 0.5em;
   }
 
   /************************ sidebar *********************************/
@@ -121,11 +121,11 @@
 
   /*********************** blog-index *********************************/
   #blog_index h1{
-  	font-weight: normal;
-  	font-family: Georgia;
-  	margin: 0;  
+    font-weight: normal;
+    font-family: Georgia;
+    margin: 0;  
   }
-  #blog_index .posts{	
+  #blog_index .posts{ 
     font-size: 90%;
   }
   #blog_index .post_item{
@@ -161,5 +161,4 @@
   #forkme_ribbon img{
     border:0;
   }
-
 }
