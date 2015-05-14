@@ -119,7 +119,7 @@ Not all companies and people working with Ruby in Chennai participate. We have n
 
 We have not done enough for the less represented groups. Participation of women has improved gradually, but it is still abysmal. We have remained a English-only group largely, which is also not great because English is the second language in Chennai.
 
-We have done nothing for social outreach. The Free Software Foundation (2) for example is much better involved in activism and training than us.
+We have done nothing for social outreach. The Free Software Foundation of Tamil Nadu (2) for example is much better involved in activism and training than us.
 
 
 # Conclusion
