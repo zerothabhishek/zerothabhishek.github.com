@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /the-super-problem-in-ruby.html
+date: 2016-03-23
 ---
 
 # The super problem in Ruby

@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /we-need-callback-sometimes.html
+date: 2016-07-15
 ---
 
 # We need callbacks, sometimes

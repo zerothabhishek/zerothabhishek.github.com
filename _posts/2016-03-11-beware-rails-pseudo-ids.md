@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /beware-rails-pseudo-ids.html
+date: 2016-03-11
 ---
 
 # Beware Rails pseudo ids

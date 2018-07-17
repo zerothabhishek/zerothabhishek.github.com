@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /are-your-tests-passing-on-staging.html
+date: 2016-05-28
 ---
 
 # Are your tests passing on staging?

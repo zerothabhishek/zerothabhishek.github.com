@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /saving-those-extra-queries.html
+date: 2016-05-13
 ---
 
 # Saving those extra queries

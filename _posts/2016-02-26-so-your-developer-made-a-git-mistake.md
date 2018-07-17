@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /so-your-developer-made-a-git-mistake.html
+date: 2016-02-26
 ---
 
 # So your developer made a git mistake

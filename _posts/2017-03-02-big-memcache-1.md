@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /big-memcache-1.html
+date: 2017-03-02
 ---
 
 # Big memcache or how I learned to use database as a cache

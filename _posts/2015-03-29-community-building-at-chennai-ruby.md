@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /community-building-chennai-ruby.html
+date: 2015-03-29
 ---
 
 # What I learnt about community building at the Chennai-Ruby group
